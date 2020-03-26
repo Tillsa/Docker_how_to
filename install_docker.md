@@ -59,6 +59,10 @@ remove an image:
 ```
 $ docker image rm <IMAGE ID>
 ```
+remove a container via iage id (e.g. 3b70ac11dc39):
+```
+$ docker container rm <IMAGE ID>
+```
 create a new ubuntu container:
 ```
 $ docker create ubuntu
