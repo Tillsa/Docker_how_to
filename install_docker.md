@@ -59,7 +59,12 @@ remove an image:
 ```
 $ docker image rm <IMAGE ID>
 ```
-create a new container:
+create a new ubuntu container:
 ```
 $ docker create ubuntu
+```
+create a new ubuntu container using a tag (otherwise the latest version will be pulled):
+```
+$ docker create ubuntu:18.04
+
 ```
