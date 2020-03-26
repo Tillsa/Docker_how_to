@@ -44,3 +44,4 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 $ sudo usermod -aG docker $USER
 ```
+log user out and in again to make the changes work
