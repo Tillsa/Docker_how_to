@@ -51,3 +51,11 @@ remove all stopped containers, networks not used by at leeast one container, all
 ```
 $ docker system prune
 ```
+show all images:
+```
+$ docker image ls
+```
+remove an image:
+```
+$ docker image rm <IMAGE ID>
+```
