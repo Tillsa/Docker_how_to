@@ -45,3 +45,9 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 $ sudo usermod -aG docker $USER
 ```
 log user out and in again to make the changes work
+
+## Docker commands
+remove all stopped containers, networks not used by at leeast one container, all dangling images, all danglig build cache
+```
+$ docker system prune
+```
