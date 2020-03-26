@@ -59,3 +59,7 @@ remove an image:
 ```
 $ docker image rm <IMAGE ID>
 ```
+create a new container:
+```
+$ docker create ubuntu
+```
