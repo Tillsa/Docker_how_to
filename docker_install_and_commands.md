@@ -133,3 +133,7 @@ install lsb-release (actually not needed for reademption etc. only for checking 
 ```
 apt-get install -y lsb-release
 ```
+Add R 3.6 mirror
+```
+echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" >> /etc/apt/sources.list
+```
