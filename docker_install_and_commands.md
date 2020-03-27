@@ -117,3 +117,19 @@ tar xzf segemehl_0_2_0.tar.gz
 ```
 cd segemehl_*/segemehl/ && make && cd ../../
 ```
+
+add segemehl to PATH
+```
+cp segemehl_0_2_0/segemehl/segemehl.x /usr/bin/segemehl.x
+```
+add lack to PATH
+```
+cp segemehl_0_2_0/segemehl/lack.x /usr/bin/lack.x
+
+```
+install deseq2 FAILED
+
+install lsb-release (actually not needed for reademption etc. only for checking ubuntu version)
+```
+apt-get install -y lsb-release
+```
