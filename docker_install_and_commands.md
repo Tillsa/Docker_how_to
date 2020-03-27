@@ -72,3 +72,17 @@ create a new ubuntu container using a tag (otherwise the latest version will be 
 $ docker create ubuntu:18.04
 
 ```
+## Create a running Ubuntu image
+```
+docker run -it ubuntu:18.04 bash
+
+```
+```
+docker start <IMAGE ID>
+
+```
+```
+docker attach <IMAGE ID>
+
+```
+
