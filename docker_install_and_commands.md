@@ -150,6 +150,7 @@ Install R
 apt-get install r-base
 ```
 For installing dese2 try:
+## Didn't work!
 ```
 somwhere do:
 apt install libcurl4-openssl-dev
@@ -170,6 +171,7 @@ apt install libcurl4-openssl-dev
     BiocManager::install("DESeq2")
 
 ```
+## Didn't work
 ```
 apt-get update
     2  echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" >> /etc/apt/sources.list
@@ -190,6 +192,7 @@ apt-get update
    17  history
 
 ```
+# Did Work!
 ```
   $ apt-get update
   $ apt-get install python3 python3-setuptools python3-pip python3-matplotlib cython3 zlib1g-dev  make libncurses5-dev libxml2-dev
