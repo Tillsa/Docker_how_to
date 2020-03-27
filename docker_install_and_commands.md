@@ -145,3 +145,8 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB
 apt-get update
 
 ```
+Install R
+```
+apt-get install r-base
+```
+
