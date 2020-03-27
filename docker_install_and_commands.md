@@ -190,3 +190,18 @@ apt-get update
    17  history
 
 ```
+```
+  $ apt-get update
+  $ apt-get install python3 python3-setuptools python3-pip python3-matplotlib cython3 zlib1g-dev  make libncurses5-dev libxml2-dev
+  answer yes
+  echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" >> /etc/apt/sources.list
+  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  apt-get update
+  apt install libcurl4-openssl-dev
+  apt-get install r-base
+  open R
+  if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+    
+  BiocManager::install("DESeq2")
+```
