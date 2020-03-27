@@ -208,3 +208,6 @@ apt-get update
     
   BiocManager::install("DESeq2")
 ```
+Reademption set beta prior True in Code!
+Install segemehl!
+Copy Reademption Folder!
