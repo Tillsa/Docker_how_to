@@ -100,3 +100,6 @@ sudo apt-get install python3 python3-setuptools python3-pip python3-matplotlib c
 ```
 pip3 install pysam
 ```
+```
+pip3 install biopython
+```
