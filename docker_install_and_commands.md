@@ -86,3 +86,7 @@ docker attach <IMAGE ID>
 
 ```
 
+## Copy a folder or file to the container
+```
+docker cp READemption-0.4.3 0bb166ccdef8:/home/READemption-0.4.3
+```
