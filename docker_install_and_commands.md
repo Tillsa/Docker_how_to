@@ -90,3 +90,13 @@ docker attach <IMAGE ID>
 ```
 docker cp READemption-0.4.3 0bb166ccdef8:/home/READemption-0.4.3
 ```
+## Install READemption inside docker
+```
+apt get update
+```
+```
+sudo apt-get install python3 python3-setuptools python3-pip python3-matplotlib cython3 zlib1g-dev  make libncurses5-dev r-base libxml2-dev
+```
+```
+pip3 install pysam
+```
