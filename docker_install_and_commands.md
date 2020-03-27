@@ -111,3 +111,9 @@ install segemehl:
 ```
 curl www.bioinf.uni-leipzig.de/Software/segemehl/old/segemehl_0_2_0.tar.gz > segemehl_0_2_0.tar.gz
 ```
+```
+tar xzf segemehl_0_2_0.tar.gz
+```
+```
+cd segemehl_*/segemehl/ && make && cd ../../
+```
