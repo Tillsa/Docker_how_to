@@ -170,3 +170,23 @@ apt install libcurl4-openssl-dev
     BiocManager::install("DESeq2")
 
 ```
+```
+apt-get update
+    2  echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" >> /etc/apt/sources.list
+    3  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    4  apt-get install gnupg2 -y
+    5  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    6  apt-get update
+    7  apt-get install -y ca-certificates
+    8  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    9  apt-get update
+   10  apt-get install r-base
+   11  R
+   12  history
+   13  apt install libcurl4-openssl-dev
+   14  R
+   15  apt-get install python3 python3-setuptools python3-pip python3-matplotlib cython3 zlib1g-dev  make libncurses5-dev r-base libxml2-dev
+   16  R
+   17  history
+
+```
