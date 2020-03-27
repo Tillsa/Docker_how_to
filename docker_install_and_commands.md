@@ -103,3 +103,6 @@ pip3 install pysam
 ```
 pip3 install biopython
 ```
+```
+pip3 install pandas
+```
