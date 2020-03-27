@@ -106,3 +106,8 @@ pip3 install biopython
 ```
 pip3 install pandas
 ```
+install segemehl:
+
+```
+curl www.bioinf.uni-leipzig.de/Software/segemehl/old/segemehl_0_2_0.tar.gz > segemehl_0_2_0.tar.gz
+```
