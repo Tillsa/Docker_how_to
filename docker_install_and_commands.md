@@ -149,4 +149,24 @@ Install R
 ```
 apt-get install r-base
 ```
+For installing dese2 try:
+```
+somwhere do:
+apt install libcurl4-openssl-dev
+ 1  apt-get update
+    2  echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" >> /etc/apt/sources.list
+    3  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    4  apt-get install gnupg2 -y
+    5  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    6  apt-get update
+    7  apt-get install -y ca-certificates
+    8  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+    9  apt-get update
+   10  apt-get install r-base
+   11  R
+   in R: if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
+    BiocManager::install("DESeq2")
+
+```
