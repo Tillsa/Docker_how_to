@@ -230,6 +230,7 @@ cp segemehl_0_2_0/segemehl/segemehl.x /usr/bin/segemehl.x
 add lack to PATH
 ```
 cp segemehl_0_2_0/segemehl/lack.x /usr/bin/lack.x
+```
 Reademption set beta prior True in Code!
 Install segemehl!
 Copy Reademption Folder!
