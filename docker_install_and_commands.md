@@ -208,6 +208,28 @@ apt-get update
     
   BiocManager::install("DESeq2")
 ```
+## install segemehl:
+go to home directory
+```
+cd home
+```
+```
+curl www.bioinf.uni-leipzig.de/Software/segemehl/old/segemehl_0_2_0.tar.gz > segemehl_0_2_0.tar.gz
+```
+```
+tar xzf segemehl_0_2_0.tar.gz
+```
+```
+cd segemehl_*/segemehl/ && make && cd ../../
+```
+
+add segemehl to PATH
+```
+cp segemehl_0_2_0/segemehl/segemehl.x /usr/bin/segemehl.x
+```
+add lack to PATH
+```
+cp segemehl_0_2_0/segemehl/lack.x /usr/bin/lack.x
 Reademption set beta prior True in Code!
 Install segemehl!
 Copy Reademption Folder!
