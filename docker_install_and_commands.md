@@ -239,5 +239,17 @@ cp segemehl_0_2_0/segemehl/lack.x /usr/bin/lack.x
 ```
 docker cp READemption-0.4.3 32ced4ad6722:/home/READemption-0.4.3
 ```
+## Install Python libs inside container
+```
+pip3 install pysam
+```
+```
+pip3 install biopython
+```
+```
+pip3 install pandas
+```
+
+
 Reademption set beta prior True in Code!
 
