@@ -209,6 +209,10 @@ apt-get update
   BiocManager::install("DESeq2")
 ```
 ## install segemehl:
+install curl
+```
+apt install curl
+```
 go to home directory
 ```
 cd home
