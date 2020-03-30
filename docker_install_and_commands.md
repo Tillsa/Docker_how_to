@@ -192,7 +192,7 @@ apt-get update
    17  history
 
 ```
-# Did Work!
+## Install Python, R and other packages needed (inside the container)
 ```
   $ apt-get update
   $ apt-get install python3 python3-setuptools python3-pip python3-matplotlib cython3 zlib1g-dev  make libncurses5-dev libxml2-dev
@@ -208,7 +208,7 @@ apt-get update
     
   BiocManager::install("DESeq2")
 ```
-## install segemehl:
+### install segemehl:
 install curl
 ```
 apt install curl
@@ -235,6 +235,9 @@ add lack to PATH
 ```
 cp segemehl_0_2_0/segemehl/lack.x /usr/bin/lack.x
 ```
+## Copy Reademption folder to the container (from outside the container)
+```
+docker cp READemption-0.4.3 32ced4ad6722:/home/READemption-0.4.3
+```
 Reademption set beta prior True in Code!
-Install segemehl!
-Copy Reademption Folder!
+
