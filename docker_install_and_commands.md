@@ -251,7 +251,7 @@ pip3 install pandas
 ```
 ## add READemption to PATH inside container
 ```
-echo "PATH=$PATH:/home/READemption-0.4.3/bin/reademption" >> /root/.bashrc
+echo "PATH=$PATH:/home/READemption-0.4.3/bin" >> /root/.bashrc
 ```
 # Make image from container
 ```
