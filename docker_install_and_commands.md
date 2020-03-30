@@ -249,7 +249,10 @@ pip3 install biopython
 ```
 pip3 install pandas
 ```
-
+# Make image from container
+```
+docker commit <CONTAINER ID>
+```
 
 Reademption set beta prior True in Code!
 
