@@ -303,3 +303,7 @@ tag image
 ```
 $ docker tag a662564f46d5 tillsauerwein/reademption:firsttry
 ```
+push image with tag
+```
+docker push tillsauerwein/reademption:firsttry
+```
