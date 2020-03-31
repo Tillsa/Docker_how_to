@@ -259,3 +259,38 @@ docker commit <CONTAINER ID>
 ```
 Reademption set beta prior True in Code!
 
+# Install Singularity and dependencies:
+## Install GO
+```
+$ export VERSION=1.13 OS=linux ARCH=amd64
+```
+```
+$ wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz
+```
+```
+$ sudo tar -C /usr/local -xzvf go$VERSION.$OS-$ARCH.tar.gz
+```
+```
+$ rm go$VERSION.$OS-$ARCH.tar.gz
+```
+add to Path, add following line to bashrc or zshrc:
+```
+$ export PATH=/usr/local/go/bin:$PATH
+```
+## Install Singularity
+```
+$ wget https://github.com/sylabs/singularity/releases/download/v3.5.2/singularity-3.5.2.tar.gz
+```
+```
+$ tar -xzvf singularity-3.5.2.tar.gz
+```
+```
+$ cd singularity
+$ ./mconfig
+```
+```
+$ make -C builddir
+```
+```
+$ sudo make -C builddir install
+```
