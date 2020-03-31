@@ -294,3 +294,12 @@ $ make -C builddir
 ```
 $ sudo make -C builddir install
 ```
+# Push image to Docker Hub
+login to docker
+```
+$ docker login -u tillsauerwein
+```
+tag image
+```
+$ docker tag a662564f46d5 tillsauerwein/reademption:firsttry
+```
