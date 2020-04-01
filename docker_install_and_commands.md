@@ -307,3 +307,11 @@ push image with tag
 ```
 docker push tillsauerwein/reademption:firsttry
 ```
+# Download image from docker hub and make singularity image
+
+```
+singularity build \
+                reademption.img \
+                docker://tillsauerwein/reademption:firsttry
+
+```
