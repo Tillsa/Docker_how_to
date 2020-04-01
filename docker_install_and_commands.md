@@ -315,3 +315,8 @@ singularity build \
                 docker://tillsauerwein/reademption:firsttry
 
 ```
+```
+singularity exec -B ${STORAGE_PATH} annogesic.img \
+                annogesic --version
+
+```
