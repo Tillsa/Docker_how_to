@@ -153,11 +153,6 @@ pip3 install pandas
 ```
 echo "PATH=$PATH:/home/READemption-0.4.3/bin" >> /root/.bashrc
 ```
-# Make image from container
-```
-docker commit <CONTAINER ID>
-```
-Reademption set beta prior True in Code!
 
 # Install Singularity and dependencies:
 ## Install GO
@@ -194,6 +189,11 @@ $ make -C builddir
 ```
 $ sudo make -C builddir install
 ```
+# Make image from container
+```
+docker commit <CONTAINER ID>
+```
+
 # Push image to Docker Hub
 login to docker
 ```
@@ -220,3 +220,4 @@ singularity exec -B ${STORAGE_PATH} annogesic.img \
                 annogesic --version
 
 ```
+Reademption set beta prior True in Code!
