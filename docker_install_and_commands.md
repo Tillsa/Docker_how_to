@@ -139,6 +139,12 @@ cp segemehl_0_2_0/segemehl/lack.x /usr/bin/lack.x
 ```
 docker cp READemption-0.4.3 32ced4ad6722:/home/READemption-0.4.3
 ```
+## make reademption executable callable from outside the container
+inside the container:
+```
+ln -s /home/READemption-0.4.3/bin/reademption usr/local/bin/reademption
+```
+
 ## Install Python libs inside container
 ```
 pip3 install pysam
